@@ -20,6 +20,17 @@ body{
     overflow: hidden;
     margin-top: 20px;
 }
+
+/* Media query for screens less than 768px */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-top: 0;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+}
+
+
 .container .text{
     position: relative;
     color: #4070F4;
